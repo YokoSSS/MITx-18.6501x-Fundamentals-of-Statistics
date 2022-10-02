@@ -1,0 +1,246 @@
+
+OK, so now that we've--
+so if we understand what probability is,
+what probability is, I give you a particular description
+of a random process and I ask you things about the outcome,
+maybe an expectation, maybe a probability.
+The question is, where does statistics fits in all of this,
+right?
+You don't need statistics to understand
+that a die has chance 1/6 to fall on a particular side.
+But if you did not know that, you
+would need statistics to figure out.
+You would start rolling a die and start
+collecting some numbers, proportion of times
+that you fall on a particular side,
+and then you would probably try to see that this probability is
+converging to maybe 1/6.
+This proportion is converging to maybe 1/6, OK?
+And if you might, for example, suspect that the die is not
+fair, maybe you would actually try
+to see that by, same thing, rolling the die many times
+and start collecting data.
+And so when you need to estimate the parameters of the process,
+here the parameters are 1/6, 1/6, 1/6, 1/6, 1/6,
+1/6 for a fair die.
+Maybe those are another set of six numbers for an unfair one.
+This is now becoming statistics.
+So statistics is the one that says give me data
+and I will tell you something about a random process.
+OK.
+Sometimes there's real randomness.
+OK, so I say, collect data from a random process.
+Where does this random process come from?
+Well as I said, sometimes it's a real randomness,
+and we'll talk every once in a while
+about picking a random student in the class
+and asking a question and trying to understand what
+is the expected GPA of a randomly selected student,
+for example.
+There's real random that's going on there.
+You know, if I talk about a biased coin,
+because we know this is the most important problem in data
+science, predicting biased coins.
+Actually, it kind of is.
+If you go to Wall Street people want
+to know if it goes up or down, and in a way,
+it's a biased coin.
+Sometimes you're in an engineering lab
+and there's actually an extremely well understood
+thermal noise problem, which is just measurement error.
+Actually, the standard deviation of this noise
+comes written on the side of the box.
+This is very well understood.
+Those are random processes that are real.
+Of course, there's no real randomness.
+But the way we look at it, it definitely appears
+to be random, just like dice or you
+can view them as random or deterministic.
+But the real place where most of statistics,
+most of the randomness come from,
+when you talk about massive genomics
+data sets or massive marketing campaigns data sets, those--
+there is no randomness in there.
+People don't think of themselves as acting randomly.
+However, there's a huge component
+that we don't understand.
+For example, in marketing, we just
+do not understand the social aspects associated
+to consumer preferences, right?
+There's huge aspects we do not understand.
+When we talk about genes, we're trying
+to predict personalized medicines
+based on gene profiles.
+You know, gene profiles tells you a lot about some disease.
+But they don't tell you everything, right?
+There's all the external aspects of a patient's life.
+There's a lot of things that you may not
+be able to collect when you're actually building a drug based
+only on genomic data.
+So there's things that you just don't understand.
+It's just not accessible to you.
+And what is it?
+Well, typically it's everything that you do not
+have in your data set.
+Now, there will be cases where you will be
+able to collect your data set.
+So when you have a genomic data, you
+could actually try to collect extra data on your patients,
+for example.
+Try to reduce this part that you don't
+understand as much as possible.
+But it will always be there.
+You will probably never have a completely deterministic rule
+that says, oh, I looked at this gene expression level
+for this patient, that I know exactly what this person's
+know ratio of hand length to head length will be, right?
+It's not happening.
+OK, so the way we do statistical modeling
+in just one simple equation is that we
+have a complicated process.
+And think about any process you would want to model
+or understand using data.
+And as I speak, those processes become more and more complex.
+The minute there's a human component in it,
+it's just way too complex.
+So what we do is we say, well, maybe it's
+a simple process in which I'm going to capture
+maybe 80% of what's going on.
+That's going to be good enough, right?
+I'm going to understand quite a bit of what's happening.
+There's a huge structure going on.
+There's a big trend, and that will
+allow me to make money out of my marketing campaign,
+for example.
+And then there's something I don't understand
+and I will just assume.
+And this is a modeling assumption, again,
+a modeling assumption that it is random noise in the sense
+that this will just--
+what I mean by random, typically,
+is that I mean that it's going to be half of the time big,
+half of the time small.
+It's going to average out over people.
+I don't want to have something which has a systematic bias.
+I don't want to think that my data is actually
+missing things that are basically getting everything
+that I want to know.
+All right.
+Then that's usually something that you know
+when you collect your data.
+You think of getting data that will get you the most there.
+And so, for example, if I have a marketing campaign and I start
+collecting data that has nothing to do with this particular
+thing that I'm selling, then I cannot reasonably assume
+that's the thing I do not understand from my data is
+random noise.
+So if you want to do modeling, the idea of doing good modeling
+is to put as much as you can here
+and as little as you can here, because this is something
+you will never have access to.
+And so what you need to do is to choose a plausible but simple
+process and maybe understand a little bit about the noise
+distribution.
+OK.
+And typically, the noise distribution
+will be something that we'll take
+anything that's simple enough and that sort of fits the data.
+If I know I always have something which is positive,
+then we'll take a random variable
+that looks always positive.
+So these are the things we're going to try to do.
+I'll go back to modeling, but I just
+want you to understand what the purpose of statistics
+and modeling is and, in particular,
+where randomness comes into play.
+OK for everyone?
+OK.
+So there's the central dogma of biology.
+This is the central dogma of probability and statistics.
+And the idea is to say, OK, we have this truth.
+We have this underlying random process that generates my data.
+Here, I'm already making this abstract step.
+And I have this truth, and probability tells me
+what my data will look like.
+OK.
+I have this die, which is the total truth.
+You don't know how I'm generating
+numbers between 1 and 6, but I have this die as the truth.
+I'm just rolling my die and all you see are the outcome.
+And if you don't understand anything about a die,
+this is the purpose of statistics.
+From data, try to recover what the truth is like.
+OK.
+Everybody understand how stats and probability fit together?
+So, of course, probability is going
+to play a huge role because this basically statistics is
+reverse engineering probability.
+That's what it is.
+So if you understand how you go from the truth
+through observation, you will understand
+how you go from observations to the truth.
+OK?
+Of course, you know much more when
+you know the truth than when you know this observation.
+So you will only get a partial picture of the truth.
+And we'll try to also--
+part of statistics to assess how accurate you
+are in understanding the truth.
+Sometimes you can be more accurate
+if you're not trying to understand
+the whole truth, but just simple aspects of the truth.
+Is the truth red or is the truth blue?
+That's a much simpler question than,
+what is shape is the truth?
+OK.
+So we're going to try to answer very targeted questions
+because the more targeted question there is,
+the more precise our answer will be.
+
+OK.
+So just to finish on this note, so you
+can see the flavor of probability versus a statistics
+question.
+So this is a probability question.
+Previous studies-- OK, so that means
+we've collected enough data that we know the truth.
+I've shown that a drug was 80% effective.
+Then we can anticipate that over 100 patients--
+these are our observations--
+that an average 80 will be cured and at least 65
+will be cured with probability 99.99%.
+So here, I use the truth, which is
+that the drug is 80% effective to make predictions
+on 100 observations to tell you what those observations will
+look like.
+I can compute their expectation maybe
+or I can compute some high probability event.
+OK.
+Statistics is the contrary.
+There is no past studies.
+Statistics, all there is are those 100 patients.
+So I only know I start from the right.
+I only know what happened to those 100 patients,
+and I know that 78 of them were cured.
+So where we'll be able to conclude is things like,
+we're 95% confident that for other studies--
+so what does it mean, well, I can
+make a conclusion about the truth
+but once I know the truth, I know
+everything that's going to happen in every other study.
+And probably the most important study of all
+is the one where you actually release drug to market.
+Right?
+So that's the one where you really want
+to know what's going to happen.
+And so we're 95% confident that it
+will be effective between 69.88% to 86.11% of patients.
+OK.
+So that's a pretty accurate range
+that we have with 95% confidence.
+So hopefully, those things mean nothing to you,
+and we'll know exactly what we mean by 95% percent confident,
+for example.
+And what does it mean to think about other studies also?
+That's the frequentist point of view,
+and we'll get back to that.
