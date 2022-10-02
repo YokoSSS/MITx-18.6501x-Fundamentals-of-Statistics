@@ -1,0 +1,15 @@
+5. Statistics, Data science, and Probability
+Level 2 headings may be created by course providers in the future.
+
+Probability review: dice rolling game
+1 point possible (graded)
+Alice and Bob play a game where two fair six-sided dice are rolled.
+
+Alice gets $1 if the sum of the numbers of the two dice is a prime number. (The number  is not prime.)
+
+Bob gets $3 if the numbers on the two dice are the same (e.g. 1-1, 2-2, …).
+
+Who makes more money on average (i.e. in expectation)?
+
+
+
