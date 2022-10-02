@@ -1,0 +1,85 @@
+6. Statistics and modelling
+Probability or statistics 1
+2 points possible (graded)
+Determine whether each of the problems below is a probabilistic or a statistical problem. (You are not asked to solve them.)
+
+Assume we have a population consisting of two subpopulations, A and B. A particular drug has a different chance of treatment success depending on the subpopulation, namely  for group A and  for group B.
+
+Assume that subgroup A is  of the entire population and subgroup B is . What is the chance of a successful treatment if we pick a random person from the entire population?
+
+This is a
+
+
+
+statistical problem
+
+probabilistic problem
+unanswered
+Now, consider the scenario where we do not know the true composition of the population, which may be different from the previous setup. Among 1000 randomly chosen patients, we observe that the treatment was successful in 700 of them. What is a good estimate of the composition of the population?
+
+This is a
+
+
+
+statistical problem
+
+probabilistic problem
+
+Probability or statistics 2
+2 points possible (graded)
+A doctor realizes that there is an allergy medicine which is effective in treating seasonal allergies with probability at least 90%. From here, he claims:
+
+Out of 100 patients admitted to clinic with seasonal allergies, this drug will cure 90 patients, on average.
+
+At least 70 patients will be cured, with  chance.
+
+Does he rely on statistics, or probability?
+
+
+
+Statistics
+
+Probability
+unanswered
+Now, a newly-hired scientist at a pharmacology company performs an experiment, and based on his observations, deduces that, “I am 95% confident that if we repeat this experiment, then the drug will be effective on between 85% and 95% patients." Does he rely on statistics, or probability?
+
+
+
+Statistics
+
+Probability
+
+Probability or statistics 3
+2 points possible (graded)
+The mathematics majors at some university are distributed as follows:
+
+58 are in the "general" option,
+
+26 are in the "computer science" option,
+
+3 are in the "applied" option, and
+
+13 are in the "pure" option.
+
+Given a random sample of 10 math majors, what is the expected number of them that are not in the "computer science" option?
+
+This is a ...
+
+
+
+statistical problem
+
+probabilistic problem
+unanswered
+
+
+A group of 10 math majors is composed of 7 "general" options and 3 "applied" options. Is this sample representative of the math majors?
+
+This is a ...
+
+
+
+statistical problem
+
+probabilistic problem
+
